@@ -1,0 +1,43 @@
+/* Reset básico + fundo */
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #ffdede; /* AGORA FUNCIONA */
+}
+
+/* Cabeçalho */
+header {
+    background: #480505;
+    color: rgb(240, 161, 161);
+    text-align: center;
+    padding: 15px;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 10px;
+}
+
+/* Seções */
+section {
+    background: #e78787;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+    background: #480505;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media Query (telas maiores) */
+@media (min-width: 768px) {
+    section {
+        margin-bottom: 0;
+    }
+}
